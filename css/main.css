@@ -1,0 +1,57 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+
+.title-text {
+    margin: 4% auto;
+    text-align: center;
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.intro-name {
+    /* text-align: left; */
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.6em;
+}
+
+.gradient-name {
+    background:linear-gradient(90deg, rgba(255,153,134,1) 2%, rgba(237,40,92,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 6rem;
+    display: block;
+}
+
+.gradient-text {
+    background:linear-gradient(90deg, rgba(255,153,134,1) 2%, rgba(237,40,92,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.accent1 {
+    background: #5E63A9;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#type-text {
+    font-size: 2rem;
+}
+
+.body-section {
+    width: 100%;
+    text-align: center;
+}
