@@ -6,6 +6,7 @@
 new TypeIt('#type-text', {
     speed: 100
 })
+.pause(1500)
 .type("Developer. ")
 .pause(500)
 .type("Linux Enthusiast. ")

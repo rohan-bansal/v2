@@ -83,3 +83,12 @@ body {
     padding: 0px;
     list-style: outside none none;
 }
+
+.sm-items::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #0E0D0F;
+}
