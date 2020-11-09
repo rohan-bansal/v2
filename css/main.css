@@ -2,6 +2,10 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
 html {
     text-rendering: optimizeLegibility;
 }
@@ -54,4 +58,28 @@ body {
 .body-section {
     width: 100%;
     text-align: center;
+}
+
+.social-media-column {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: #0E0D0F;
+}
+
+.sm-items li {
+    padding: 10px;
+}
+
+.sm-items {
+    display: flex;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: outside none none;
 }
