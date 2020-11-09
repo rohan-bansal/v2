@@ -16,7 +16,9 @@ body {
 }
 
 .title-text {
-    margin: 4% auto;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
     text-align: center;
     width: 50%;
     word-wrap: break-word;
@@ -91,4 +93,21 @@ body {
     height: 90px;
     margin: 0px auto;
     background-color: #0E0D0F;
+}
+
+#intro-div h1 {
+    margin: 0;
+}
+
+#intro-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-div-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
