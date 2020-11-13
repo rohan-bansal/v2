@@ -111,3 +111,15 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
+
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    text-align: center;
+}
+
+#footer-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
