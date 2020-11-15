@@ -135,7 +135,7 @@ body {
 .avatar-location {
     text-align: center;
     margin: 0 auto; 
-    margin-top: 7vh;
+    margin-top: -10vh;
 }
 
 .avatar-location img {
@@ -226,3 +226,57 @@ body {
   #landing-page {
       height: 100vh;
   }
+  
+  .landing-page-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  #box {
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    background-image: url("../img/also-me.png");
+    background-size: 250px;
+    margin-top: -10vh;
+  }
+  .gradient-border {
+    --borderWidth: 10px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: 50%;
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8);
+    border-radius: 50%;
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  
+  
