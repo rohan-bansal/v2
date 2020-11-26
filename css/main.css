@@ -15,6 +15,10 @@ body {
     overflow-x: hidden;
 }
 
+.ibm {
+    font-family: 'IBM Plex Sans', sans-serif !important;   
+}
+
 .title-text {
     margin: 0 auto;
     margin-top: 3%;
@@ -268,5 +272,7 @@ body {
       }
   }
   
-  
-  
+.workCard {
+    background-color: #ebdbdf;
+    border-radius: 20px;
+}
