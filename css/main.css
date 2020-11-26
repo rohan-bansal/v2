@@ -222,6 +222,10 @@ p {
       #type-text {
           margin-bottom: 50px;
       }
+
+      .intro-div-info {
+          display: block;
+      }
   }
 
   #landing-page {
