@@ -303,18 +303,6 @@ p {
     margin: 0 -27px;
 }
 
-.slick-prev:before {
-    content: "⇦ ";
-    color:  #5E63A9; 
-    font-size: 30px;
-  }
-  
-  .slick-next:before {
-    content: " ⇨";
-    color:  #5E63A9; 
-    font-size: 30px;
-  }
-  
   .proj-title-hr {
       margin-bottom: 5vh;
   }
@@ -326,4 +314,25 @@ p {
     background-color: #e4e6e7;
     padding: 30px;
     border-radius: 20px;
+}
+
+.proj-body {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#projects-page {
+    margin-top: 3vh;
+}
+
+#experience-page {
+    margin-bottom: 5vh;
+}
+
+.bg-info {
+    background: linear-gradient(60deg, #a37de9, #5073b8) !important;
+    /* background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8) !important; */
 }
