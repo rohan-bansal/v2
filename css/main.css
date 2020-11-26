@@ -341,10 +341,13 @@ p {
     /* background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8) !important; */
 }
 
-#github {
+.linkit {
     background:linear-gradient(90deg, rgba(255,153,134,1) 2%, rgba(237,40,92,1) 100%) !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
+}
+
+.linkit-underline {
     text-decoration: underline;
     text-decoration-color: rgba(255,153,134,1);
 }
@@ -353,4 +356,9 @@ p {
     background:linear-gradient(90deg, rgba(255,153,134,1) 2%, rgba(237,40,92,1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.contact-body {
+    margin: 0 auto;
+    text-align: center;
 }
