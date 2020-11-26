@@ -226,6 +226,10 @@ p {
       .intro-div-info {
           display: block;
       }
+
+      .card-blog {
+          margin-right: 0px;
+      }
   }
 
   #landing-page {
@@ -335,4 +339,18 @@ p {
 .bg-info {
     background: linear-gradient(60deg, #a37de9, #5073b8) !important;
     /* background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8) !important; */
+}
+
+#github {
+    background:linear-gradient(90deg, rgba(255,153,134,1) 2%, rgba(237,40,92,1) 100%) !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-decoration: underline;
+    text-decoration-color: rgba(255,153,134,1);
+}
+
+.text-info {
+    background:linear-gradient(90deg, rgba(255,153,134,1) 2%, rgba(237,40,92,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
