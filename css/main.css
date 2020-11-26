@@ -15,8 +15,16 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-family: 'Abel';
+}
+
 .ibm {
     font-family: 'IBM Plex Sans', sans-serif !important;   
+}
+
+.abel {
+    font-family: 'Abel';
 }
 
 .title-text {
@@ -61,11 +69,6 @@ body {
 #type-text {
     font-size: 2rem;
     display: block;
-}
-
-.body-section {
-    width: 100%;
-    text-align: center;
 }
 
 .social-media-column {
@@ -215,6 +218,10 @@ body {
       .social-media-column {
           display: none;
       }
+      
+      #type-text {
+          margin-bottom: 50px;
+      }
   }
 
   #landing-page {
@@ -273,6 +280,46 @@ body {
   }
   
 .workCard {
-    background-color: #ebdbdf;
+    background-color: #ebebeb;
+    border-radius: 20px;
+}
+
+.workCard-desc {
+    font-family: "Abel";
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slick-slide {
+    margin: 0 27px;
+}
+
+.slick-list {
+    margin: 0 -27px;
+}
+
+.slick-prev:before {
+    content: "⇦ ";
+    color:  #5E63A9; 
+    font-size: 30px;
+  }
+  
+  .slick-next:before {
+    content: " ⇨";
+    color:  #5E63A9; 
+    font-size: 30px;
+  }
+  
+  .proj-title-hr {
+      margin-bottom: 5vh;
+  }
+
+  .project-body {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e4e6e7;
+    padding: 30px;
     border-radius: 20px;
 }
