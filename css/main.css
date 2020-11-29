@@ -360,6 +360,10 @@ p {
     color: rgba(237,40,92,1);
 }
 
+.linkit:hover {
+    color:  rgba(255,153,134,1);
+}
+
 .linkit-underline {
     text-decoration: underline;
     text-decoration-color: rgba(255,153,134,1);
